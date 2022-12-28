@@ -1,0 +1,17 @@
+.cover__link {
+    width: 560px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    position: relative;
+
+    text-decoration: none;x
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        gap: 16px;
+    }
+}

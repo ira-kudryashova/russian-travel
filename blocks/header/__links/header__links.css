@@ -1,0 +1,10 @@
+.header__links {
+    padding:0;
+    display: flex;
+    
+    color: #ffffff;
+    text-decoration: none;
+    
+    margin-top: 24px;
+    margin-bottom: 0;
+}

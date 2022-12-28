@@ -1,0 +1,21 @@
+.place__website {
+    grid-area: place__website;
+    
+    min-width: 456px;
+    min-height: 46px;
+
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        min-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        min-width: 288px;
+        padding: 0 16px 0 16px;
+    }
+}
