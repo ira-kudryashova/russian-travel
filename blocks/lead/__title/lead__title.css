@@ -5,7 +5,7 @@
     max-width: 720px;
     width: 100%;
 
-    padding: 0 132px;
+    margin: 0 132px;
 
     align-self: center;
     
@@ -20,14 +20,14 @@
 
 @media screen and (max-width: 1024px) {
     .lead__title {
-        padding: 48px 152px 0 152px;
+        margin: 48px 152px 0 152px;
         
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        padding: 48px 24px 0 24px;
+        margin: 48px 24px 0 24px;
     }
 }
 
@@ -36,7 +36,7 @@
         max-width: 288px;
 
         padding: 0;
-        padding: 0 16px;
+        margin: 0 16px;
 
         font-size: 40px;
         line-height: 44px;

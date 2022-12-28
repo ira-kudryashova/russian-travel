@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 
-    padding-top: 8px;
+    margin-top: 8px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -15,18 +15,18 @@
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        padding-left: 48px;
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__caption {
-        padding-left: 24px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__caption {
-        padding-left: 16px;
+        margin-left: 16px;
     }
 }
