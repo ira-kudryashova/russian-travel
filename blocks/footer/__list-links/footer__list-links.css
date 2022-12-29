@@ -1,5 +1,4 @@
 .footer__list-links {
-    /*grid-area: footer__list-links;*/
     display: flex;
     flex-direction: row;
     max-width: 483px;
