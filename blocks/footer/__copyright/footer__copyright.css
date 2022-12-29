@@ -12,8 +12,16 @@
     font-style: normal;
 }
 
+@media screen and (max-width: 414px) {
+    .footer__copyright {
+        font-family: inherit;
+        line-height: 14px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__copyright {
         font-family: inherit;
         line-height: 14px;
+    }
 }

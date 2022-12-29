@@ -16,6 +16,18 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 414px) {
+    .cover__subtitle {
+        max-width: 288px;
+        width: 100%;
+        
+        font-size: 16px;
+        line-height: 18px;
+
+        text-align:center;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 288px;
@@ -25,6 +37,5 @@
         line-height: 16px;
 
         text-align:center;
-        hyphens: auto;
     }
 }

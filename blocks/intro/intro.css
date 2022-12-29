@@ -20,6 +20,13 @@
         margin: 88px 24px 0 24px;
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .intro {
+        max-width: 327px;
+        margin: 64px 16px 0 16px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .intro {

@@ -24,6 +24,14 @@
         margin: 128px 0 0 0;
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .lead {
+        max-width: 414px;
+        width: 100%;
+        margin: 48px 0 0 0; 
+    }
+}
 
 @media screen and (max-width: 320px) {
     .lead {

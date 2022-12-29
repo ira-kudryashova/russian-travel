@@ -23,6 +23,13 @@
         margin: 28px 24px 0 24px;
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .header {
+        max-width: 372px;
+        margin: 16px 16px 0 16px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .header {

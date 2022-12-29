@@ -33,6 +33,22 @@
         gap: 16px;
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .photo-grid {
+        margin: 0;
+        padding: 0;
+
+        margin: 64px 16px 0 16px;
+
+        max-width: 372px;
+        width: 100%;
+
+        grid-template-columns: 372px;
+        grid-template-rows: repeat(12, min-content);
+        gap: 12px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .photo-grid {

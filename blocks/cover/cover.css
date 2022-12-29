@@ -43,6 +43,15 @@
         
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .cover {
+        max-width: 414px;
+        width: 100%;
+        min-height: 258px;
+        margin: 66px 0 64px 0;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .cover {

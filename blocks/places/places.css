@@ -21,9 +21,17 @@
         margin: 88px 24px 0 24px;
     }
 }
+/*на 414  для себя*/
+@media screen and (max-width: 414px) {
+    .places {
+        max-width: 414px;
+        margin:0;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .places {
         max-width: 320px;
         margin:0;
+    }
 }
