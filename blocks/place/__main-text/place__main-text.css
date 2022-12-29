@@ -1,8 +1,8 @@
 .place__main-text {
-    grid-area: place__main-text;
-    
     margin: 0;
     padding: 0;
+    
+    grid-area: place__main-text;
 
     box-sizing: border-box;
 }

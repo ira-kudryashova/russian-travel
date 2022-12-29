@@ -1,8 +1,9 @@
 .places {
+    margin: 92px 161px 0 135px;
+    padding: 0;
+    
     max-width: 984px;
     width: 100%;
-
-    margin: 92px 161px 0 135px;
     
     box-sizing: border-box;
 }

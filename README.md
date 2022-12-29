@@ -10,4 +10,4 @@
 * Реализована БЭМ-методология;
 * Подключение стилей отдельным файлом;
 
-**[Ссылка на проект]**(https://github.com/ira-kudryashova/russian-travel.git)
+**[Ссылка на проект]**(https://ira-kudryashova.github.io/russian-travel/)

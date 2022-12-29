@@ -1,8 +1,9 @@
 .lead__image {
+    margin-top: 64px;
+    padding: 0;
+
     max-width: 100%;
     height: auto;
-    
-    margin-top: 64px;
 
     align-self: center;
     box-sizing: border-box;

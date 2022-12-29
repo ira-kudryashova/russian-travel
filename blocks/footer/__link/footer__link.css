@@ -1,4 +1,7 @@
 .footer__link {
+    margin: 0;
+    padding-right: 18px;
+    
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -7,8 +10,6 @@
     
     color: #fff;
     text-decoration: none;
-    
-    padding-right: 18px;
 }
 
 .footer__link:last-of-type {

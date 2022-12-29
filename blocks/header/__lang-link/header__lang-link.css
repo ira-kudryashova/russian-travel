@@ -1,4 +1,7 @@
 .header__lang-link {
+    margin-bottom: 0;
+    padding-left: 18px;
+
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -7,9 +10,6 @@
     
     color: #ffffff;
     text-decoration: none;
-   
-    padding-left: 18px;
-    margin-bottom: 0;
 }
 
 .header__lang-link:hover {

@@ -1,8 +1,8 @@
 .place__link {
-    grid-area: place__link;
-
     margin: 0;
     padding: 0;
+
+    grid-area: place__link;
 
     font-family: inherit;
     font-style: normal;
