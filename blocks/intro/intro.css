@@ -4,9 +4,18 @@
     padding: 0;
     
     max-width: 690px;
+    width: 100%;
     
     display: grid;
     grid-template-rows: repeat(3, min-content);
+
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px) {
+    .intro {
+        margin-left: 48px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,23 +24,57 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .intro {
-        max-width: 720px;
-        margin: 88px 24px 0 24px;
+        margin: 88px auto 0 auto;
+        max-width: 802px;
+        width: 100%;
+        
     }
 }
-/*на 414  для себя*/
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 88px auto 0 auto;
+        max-width: 720px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .intro {
+        margin: 88px auto 0 auto;
+        max-width: 682px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .intro {
+        margin: 88px auto 0 auto;
+        padding: 0;
+        
+        max-width: 519px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .intro {
+        margin: 64px auto 0 auto;
+        padding: 0;
+
         max-width: 327px;
-        margin: 64px 16px 0 16px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
+        margin: 64px auto 0 auto;
+        padding: 0;
+
         max-width: 288px;
-        margin: 64px 16px 0 16px;
+        width: 100%;
     }
 }

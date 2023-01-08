@@ -1,39 +1,82 @@
 .places {
-    margin: 92px 161px 0 135px;
+    margin: 92px auto 0 auto;
     padding: 0;
     
     max-width: 984px;
     width: 100%;
+
+    display: grid;
     
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px) {
+    .places {
+        margin: 92px auto 0 auto;
+
+        max-width: 1004px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px){
     .places {
         max-width: 928px;
+        width: 100%;
 
-        margin-left: 48px;
-        margin-right: 48px;
+        margin: 88px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .places {
+        margin: 88px auto 0 auto;
+
+        max-width: 802px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
+        margin: 88px auto 0 auto;
+
         max-width: 720px;
-        margin: 88px 24px 0 24px;
+        width: 100%;
     }
 }
-/*на 414  для себя*/
+
+@media screen and (max-width: 730px) {
+    .places {
+        margin: 88px auto 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .places {
+        margin: 88px auto 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .places {
+        max-width: 567px;
+        margin: 0;
+    }    
+}
+
 @media screen and (max-width: 414px) {
     .places {
-        max-width: 414px;
-        margin:0;
+        width: 100%;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
         max-width: 320px;
-        margin:0;
+        margin: 64px 0 0 0;
     }
 }

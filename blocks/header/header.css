@@ -1,5 +1,5 @@
 .header {
-    margin: 28px 48px 0 48px;
+    margin: 28px auto 0 auto;
     padding: 0;
 
     max-width: 1184px;
@@ -7,6 +7,8 @@
        
     display: flex;
     justify-content: space-between;
+
+    box-sizing: border-box;
     
     /*попытка сделать на гридах
     display: grid;
@@ -14,29 +16,61 @@
     gap: 931px;*/
 }
 
+@media screen and (max-width: 1100px) {
+    .header {
+        max-width: 1004px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        max-width: 802px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
-        margin: 28px 24px 0 24px;
+        width: 100%;
     }
 }
-/*на 414  для себя*/
+
+@media screen and (max-width: 730px) {
+    .header {
+        max-width: 682px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .header {
+        max-width: 525px;
+        width: 100%;
+        margin: 16px auto 0 auto;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .header {
         max-width: 372px;
-        margin: 16px 16px 0 16px;
+        width: 100%;
+        margin: 16px auto 0 auto;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
-        margin: 16px 16px 0 16px;
+        width: 100%;
+        margin: 16px auto 0 auto;
     }
 }

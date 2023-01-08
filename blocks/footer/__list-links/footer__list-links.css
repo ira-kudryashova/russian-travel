@@ -6,6 +6,16 @@
     flex-direction: row;
 }
 
+@media screen and (max-width: 567px) {
+    .footer__list-links {
+        max-width: 328px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .footer__list-links {
         max-width: 240px;

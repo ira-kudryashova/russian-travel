@@ -20,6 +20,16 @@
     opacity: 0.8;
 }
 
+@media screen and (max-width: 567px) {
+    .footer__link {     
+        padding-bottom: 32px;
+        padding-right: 0;
+        
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .footer__link {
         padding-bottom: 32px;

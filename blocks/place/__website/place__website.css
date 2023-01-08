@@ -1,28 +1,25 @@
 .place__website {
     grid-area: place__website;
     
-    min-width: 456px;
-    min-height: 46px;
-
+    width: 100%;
+    
     align-self: flex-end;
-}
+    box-sizing: border-box;
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        min-width: 352px;
-    }
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 414px) {
     .place__website {
-        min-width: 372px;
-        margin: 0 16px 0 16px;
+        padding: 0 16px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__website {
-        min-width: 288px;
-        margin: 0 16px 0 16px;
+        margin: 0;
+        padding: 32px 16px;
     }
 }
