@@ -12,22 +12,7 @@
 }
 
 @media screen and (max-width: 567px) {
-    .footer__link {     
-        font-family: inherit;
-        line-height: 14px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .footer__copyright {
-        font-family: inherit;
-        line-height: 14px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__copyright {
-        font-family: inherit;
+    .footer__link {
         line-height: 14px;
     }
 }

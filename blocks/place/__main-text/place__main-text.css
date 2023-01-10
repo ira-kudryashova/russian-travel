@@ -12,33 +12,21 @@
 @media screen and (max-width: 1024px) {
     .place__main-text {
         max-width: 456px;
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__main-text {
         max-width: 352px;
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 414px) {
     .place__main-text {
+        margin-top: 32px;
         padding-left: 16px;
         padding-right: 16px;
 
-        max-width: 288px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__main-text {
-        padding-left: 16px;
-        padding-right: 16px;
-        
-        max-width: 288px;
         width: 100%;
     }
 }

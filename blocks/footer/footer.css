@@ -18,24 +18,39 @@
     "footer__list-links footer__copyright";*/
 }
 
+@media screen and (max-width: 1189px) {
+    .footer {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .footer {
-        max-width: 1004;
-        width: 100%;
+        max-width: 1004px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
+        margin: 92px auto 24px auto;
+        padding: 0;
         max-width: 928px;
-        width: 100%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .footer {
+        max-width: 882px;
+
     }
 }
 
 @media screen and (max-width: 850px) {
     .footer {
         max-width: 802px;
-        width: 100%;
 
     }
 }
@@ -43,9 +58,7 @@
 @media screen and (max-width: 768px) {
     .footer {
         margin-top: 88px;
-        
         max-width: 720px;
-        width: 100%;
     }
 }
 
@@ -57,7 +70,6 @@
 
 @media screen and (max-width: 567px) {
     .footer {
-        padding: 0;
         padding-left: 16px;
         margin-right: 0;
 
@@ -69,12 +81,7 @@
 @media screen and (max-width: 320px) {
     .footer {
         margin:0;
-
-        padding-left: 16px;
         padding-right: 0;
-
-        flex-direction: column;
-        align-items: flex-start;
 
         /*пробовала на гридах
         grid-template-columns: 186px;

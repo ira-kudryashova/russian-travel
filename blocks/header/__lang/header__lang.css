@@ -1,6 +1,8 @@
-.header__lang-link {
+.header__lang {
     margin-bottom: 0;
     padding-left: 18px;
+
+    align-items: center;ß
 
     font-family: inherit;
     font-style: normal;
@@ -12,24 +14,17 @@
     text-decoration: none;
 }
 
-.header__lang-link:hover {
+.header__lang:hover {
     opacity: 0.8;
     text-decoration: underline;
 }
 
-.header__lang-link:first-of-type {
+.header__lang:first-of-type {
     padding-left: 0;
 }
 
 @media screen and (max-width: 414px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang-link {
+    .header__lang {
         font-size: 18px;
         line-height: 20px;
     }
