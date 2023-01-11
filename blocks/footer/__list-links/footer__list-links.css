@@ -10,7 +10,6 @@
     .footer__list-links {
         max-width: 328px;
 
-        display: flex;
         flex-direction: column;
     }
 }
